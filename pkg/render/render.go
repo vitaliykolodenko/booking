@@ -3,8 +3,8 @@ package render
 import (
 	"bytes"
 	"fmt"
-	"github.com/vitaliykolodenko/go-course/pkg/config"
-	"github.com/vitaliykolodenko/go-course/pkg/models"
+	"github.com/vitaliykolodenko/booking/pkg/config"
+	"github.com/vitaliykolodenko/booking/pkg/models"
 	"html/template"
 	"log"
 	"net/http"

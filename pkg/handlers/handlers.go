@@ -1,11 +1,11 @@
 package handlers
 
 import (
-	"github.com/vitaliykolodenko/go-course/pkg/config"
-	"github.com/vitaliykolodenko/go-course/pkg/models"
+	"github.com/vitaliykolodenko/booking/pkg/config"
+	"github.com/vitaliykolodenko/booking/pkg/models"
 	"net/http"
 
-	"github.com/vitaliykolodenko/go-course/pkg/render"
+	"github.com/vitaliykolodenko/booking/pkg/render"
 )
 
 var Repo *Repository

@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 	"github.com/alexedwards/scs/v2"
-	"github.com/vitaliykolodenko/go-course/pkg/config"
-	"github.com/vitaliykolodenko/go-course/pkg/handlers"
-	"github.com/vitaliykolodenko/go-course/pkg/render"
+	"github.com/vitaliykolodenko/booking/pkg/config"
+	"github.com/vitaliykolodenko/booking/pkg/handlers"
+	"github.com/vitaliykolodenko/booking/pkg/render"
 	"log"
 	"net/http"
 	"time"
@@ -13,6 +13,7 @@ import (
 
 var app config.AppConfig
 var session *scs.SessionManager
+
 func main() {
 	app.InProduction = false
 	app.UseCache = false
